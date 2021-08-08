@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 
-</div>
+
     <div class="row mt-4">
         <div class="col">
 <h2>Add Item</h2>
@@ -16,6 +16,7 @@
         <ul class="list-group">
             {% for todo in todo %}
             <li class="list-group-item">{{todo.text}}
+                <li class="list-group-item btn btn-sm btn-success">{{todo.added_date}}
 
                     <form action="delete_todo/{{todo.id}}/" method="post">
             <button type="submit" class="btn btn-sm btn-danger float-right">Delete</button>

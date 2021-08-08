@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -26,7 +26,7 @@ SECRET_KEY = '@$b=(b)!mx34h=z4_*(xj7tu2*+fc7n4e(4*5p7i1ta-!yf-0v'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-import os
+
 
 # Application definition
 
